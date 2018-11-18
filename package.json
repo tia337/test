@@ -1,0 +1,35 @@
+{
+  "name": "angular-test-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "busboy-body-parser": "^0.3.2",
+    "colors": "^1.3.2",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pg": "^7.6.0",
+    "pg-promise": "^8.5.1",
+    "sequelize": "^4.41.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/razoris/angular-test-be.git"
+  },
+  "author": "tia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/razoris/angular-test-be/issues"
+  },
+  "homepage": "https://gitlab.com/razoris/angular-test-be#readme"
+}
